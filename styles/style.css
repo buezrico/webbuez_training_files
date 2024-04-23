@@ -152,6 +152,62 @@ body a {
 .container .about .about-inner .about-desc .second-desc {
   font-style: italic;
 }
+.container footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+}
+.container footer .footer-inner {
+  width: 95%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+}
+.container footer .footer-inner h3 {
+  font-weight: normal;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.container footer .footer-inner .footer-container p {
+  margin-bottom: 1rem;
+}
+.container footer .footer-inner .footer-container p a {
+  text-decoration: underline;
+}
+.container footer .footer-inner .blog-post {
+  display: flex;
+  flex-direction: column;
+}
+.container footer .footer-inner .blog-post .blog {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+.container footer .footer-inner .blog-post .blog img {
+  height: 3rem;
+}
+.container footer .footer-inner .blog-post .blog:hover {
+  background-color: #ddd;
+}
+.container footer .footer-inner .popular-tags .tags {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.container footer .footer-inner .popular-tags .tags p {
+  background-color: #616161;
+  color: #ffffff;
+  font-size: 0.7rem;
+  padding: 0.1rem 0.5rem;
+}
+.container footer .footer-inner .popular-tags .tags p:nth-child(1) {
+  background-color: #000000;
+}
 
 @media screen and (max-width: 1024px) {
   .container .hero .cards {
@@ -173,5 +229,8 @@ body a {
   }
   .container .hero .cards .card .desc {
     font-size: 0.8rem;
+  }
+  .container footer .footer-inner {
+    grid-template-columns: repeat(1, 1fr);
   }
 }/*# sourceMappingURL=style.css.map */
