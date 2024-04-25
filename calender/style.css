@@ -1,0 +1,81 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #249991;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 80%;
+  height: 80%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container .day {
+  width: 50%;
+  height: 100%;
+  background-color: #4ecdc4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container .day p:nth-child(1) {
+  font-size: 2rem;
+  color: #b8e6e8;
+}
+.container .day p:nth-child(2) {
+  font-size: 12rem;
+  color: #fefbfd;
+}
+.container .calender {
+  width: 50%;
+  height: 100%;
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.container .calender .month-year {
+  color: #249b85;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.container .calender .calender-inner {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  width: 80%;
+}
+.container .calender .calender-inner p {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.container .calender .calender-inner .days {
+  color: #e84f78;
+}
+.container .calender .calender-inner .past {
+  color: #c4c4c4;
+}
+.container .calender .calender-inner .current {
+  border-radius: 100%;
+  border: 5px solid #e84f78;
+  color: #e84f78;
+}
+.container .calender .calender-inner .future {
+  color: #6d6d6d;
+}/*# sourceMappingURL=style.css.map */
