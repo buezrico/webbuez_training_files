@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5rem;
+  gap: 2rem;
+}
+.container img {
+  height: 10rem;
+  width: 10rem;
+  border-radius: 5rem;
+}
+.container .websites {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.container .websites .list-of-websites {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.container .websites .list-of-websites li a {
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: teal;
+  font-weight: bold;
+}/*# sourceMappingURL=style.css.map */

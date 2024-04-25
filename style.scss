@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  // background-color: black;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  //   align-items: center;
+  justify-content: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5rem;
+  //   justify-content: center;
+  gap: 2rem;
+
+  img {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 5rem;
+  }
+
+  .websites {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    .list-of-websites {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+
+      li {
+        a {
+          text-decoration: none;
+          font-size: 1.1rem;
+          color: teal;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}
