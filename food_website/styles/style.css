@@ -131,6 +131,7 @@ body a {
 }
 .container .about .about-inner .about-title {
   font-size: 1.5rem;
+  border-radius: 20px;
 }
 .container .about .about-inner .about-img {
   width: 100%;

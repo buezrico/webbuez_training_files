@@ -59,7 +59,7 @@ body {
     width: 95%;
     display: flex;
     flex-direction: column;
-    gap: 5rem;
+    gap: $textSize;
 
     .cards {
       display: grid;
@@ -138,15 +138,14 @@ body {
 
     .about-inner {
       width: 90%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+      @include center;
       flex-direction: column;
       gap: 2rem;
       text-align: center;
 
       .about-title {
         font-size: 1.5rem;
+        border-radius: 20px;
       }
 
       .about-img {
