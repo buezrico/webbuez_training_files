@@ -5,11 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>YouTube</title>
     <link rel="stylesheet" href="styles/style.css" />
-    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <nav class="navbar">
-      <h1>NAVIGATION</h1>
+      <div class="top-nav">
+        <div class="search">
+          <div class="search-input">
+            <input type="text" placeholder="Search" />
+            <div class="search-icon">
+              <i class="fas fa-search"></i>
+            </div>
+          </div>
+
+          <div class="search-mic">
+            <i class="fa-solid fa-microphone"></i>
+          </div>
+        </div>
+        <div class="profile">
+          <div class="create-video-icon">
+            <i class="bx bx-video-plus"></i>
+          </div>
+
+          <div class="notification-icon">
+            <i class="bx bx-bell"></i>
+            <p>9+</p>
+          </div>
+
+          <div class="profile-picture">
+            <img src="/images/profile.jpg" alt="profile-picture" />
+          </div>
+        </div>
+      </div>
+
+      <div class="suggestions">
+        <i class="fa-solid fa-video-plus"></i>
+      </div>
     </nav>
 
     <aside class="side-nav">
